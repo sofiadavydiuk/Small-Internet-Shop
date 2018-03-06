@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Router, Route, IndexRoute, hashHistory } from "react-router";
 
-import Archives from "./pages/Archives";
-import Featured from "./pages/Featured";
+import Archives from "./pages/Tablets";
+import Featured from "./pages/Smartphones";
 import Layout from "./pages/Layout";
-import Settings from "./pages/Settings";
+import Settings from "./pages/TV";
 
 const app = document.getElementById('app');
 
