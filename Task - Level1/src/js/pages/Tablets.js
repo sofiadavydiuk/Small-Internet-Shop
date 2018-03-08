@@ -1,29 +1,32 @@
 import React from "react";
 
-import Article from "../components/Products";
+import Products from "../components/Products";
 
-export default class Archives extends React.Component {
+export default class Tablets extends React.Component {
   render() {
     const { query } = this.props.location;
     const { params } = this.props;
-    const { article } = params;
+    const { ProductUnknown } = params;
+
     const { date, filter } = query;
 
-    const Articles = [
-      "Some Article",
-      "Some Other Article",
-      "Yet Another Article",
+    console.log(ProductUnknown);
+
+    const Product = [
+      "Some Products",
+      "Some Other Products",
+      "Yet Another Products",
       "Still More",
-      "Fake Article",
-      "Partial Article",
-      "American Article",
-      "Mexican Article",
-    ].map((title, i) => <Article key={i} title={title}/> );
+      "Fake Products",
+      "Partial Products",
+      "American Products",
+      "Mexican Products",
+    ].map((title, i) => <Products key={i} title={title}/> );
 
     return (
       <div>
         <h1>Tablets</h1>
-        <div class="row">{Articles}</div>
+        <div class="row">{Product}</div>
       </div>
     );
   }

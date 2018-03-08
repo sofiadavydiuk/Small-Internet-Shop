@@ -1,8 +1,8 @@
 import React from "react";
 
-export default class Settings extends React.Component {
+export default class TV extends React.Component {
   render() {
-    console.log("settings");
+    console.log(TV);
     return (
       <h1>TV</h1>
     );
