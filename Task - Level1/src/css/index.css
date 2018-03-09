@@ -1,0 +1,40 @@
+.main-title {
+	margin-top: 100px;
+}
+
+.main-title,
+.section-title {
+	text-align: center;
+}
+
+.section-title {
+	color: #000000;
+	font-size: 26px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.product {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.product__logo {
+	max-width: 100%;
+}
+
+.product__name {
+	margin-top: 20px;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.product__price {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 40px;
+}

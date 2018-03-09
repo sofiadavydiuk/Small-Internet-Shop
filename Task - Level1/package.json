@@ -20,7 +20,9 @@
     "webpack-dev-server": "^1.14.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0"
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "whatwg-fetch": "^2.0.3"
   },
   "scripts": {
     "dev": "webpack-dev-server --content-base src --inline --hot"

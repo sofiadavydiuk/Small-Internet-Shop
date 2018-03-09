@@ -3,31 +3,33 @@ import React from "react";
 import Products from "../components/Products";
 
 export default class Tablets extends React.Component {
-  render() {
-    const { query } = this.props.location;
-    const { params } = this.props;
-    const { ProductUnknown } = params;
+	render() {
+		const Product = [
+			{
+				"name":  "IPad6",
+				"price": "1000zl",
+				"logo":  "/img/tablet.jpg"
+			}, {
+				"name":  "IPad7",
+				"price": "1500zl",
+				"logo":  "/img/tablet.jpg"
+			}, {
+				"name":  "IPad7",
+				"price": "1500zl",
+				"logo":  "/img/tablet.jpg"
+			}, {
+				"name":  "IPad7",
+				"price": "1500zl",
+				"logo":  "/img/tablet.jpg"
+			}
+		].map((params, i) => <Products key={i} params={params}/>);
 
-    const { date, filter } = query;
+		return (
+			<div>
+				<h1 class="section-title">Tablets</h1>
 
-    console.log(ProductUnknown);
-
-    const Product = [
-      "Some Products",
-      "Some Other Products",
-      "Yet Another Products",
-      "Still More",
-      "Fake Products",
-      "Partial Products",
-      "American Products",
-      "Mexican Products",
-    ].map((title, i) => <Products key={i} title={title}/> );
-
-    return (
-      <div>
-        <h1>Tablets</h1>
-        <div class="row">{Product}</div>
-      </div>
-    );
-  }
+				<div class="row">{Product}</div>
+			</div>
+		);
+	}
 }
