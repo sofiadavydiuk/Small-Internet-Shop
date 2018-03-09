@@ -1,14 +1,15 @@
 import React from "react";
 
-export default class Article extends React.Component {
+export default class Products extends React.Component {
   render() {
-    const { title } = this.props;
-    const { price } = this.props;
+    let attr = this.props;
+
+    console.log(attr);
 
     return (
       <div class="col-md-4">
-        <h4>{title}</h4>
-        <p>{price}</p>
+        <h4>{this.prop s.params.name}</h4>
+        <p>{this.props.params.price}</p>
         <a class="btn btn-default" href="#">More Info</a>
       </div>
     );
