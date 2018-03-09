@@ -1,5 +1,5 @@
 import React from "react";
-import {IndexLink, Link} from "react-router";
+import {Link} from "react-router-dom";
 
 export default class Nav extends React.Component {
 	render() {
@@ -17,13 +17,13 @@ export default class Nav extends React.Component {
 					<div class="navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li>
-								<IndexLink to="/">Smartphones</IndexLink>
+								<Link to="/smartphones">Smartphones</Link>
 							</li>
 							<li>
-								<Link to="archives">Tablets</Link>
+								<Link to="/archives">Tablets</Link>
 							</li>
 							<li>
-								<Link to="settings">TV</Link>
+								<Link to="/settings">TV</Link>
 							</li>
 						</ul>
 					</div>
