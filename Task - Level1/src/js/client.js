@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {BrowserRouter as Dupa, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Ruter, Route, Switch} from 'react-router-dom';
 import Tablets from "./pages/Tablets";
 import Smartphones from "./pages/Smartphones";
 import Layout from "./pages/Layout";
 import TV from "./pages/TV";
 
 ReactDOM.render(
-  <Dupa>
+  <Ruter>
     <div className="App">
       <Layout>
       <Switch>
@@ -17,5 +17,5 @@ ReactDOM.render(
       </Switch>
       </Layout>
     </div>
-  </Dupa>
+  </Ruter>
   , document.getElementById('app'));
