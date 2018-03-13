@@ -1,22 +1,22 @@
 [
-  {
-	"name": "Iphone6",
-	"price": "100zl",
-	"logo": "/img/smartphone.jpg"
-  },
-  {
-	"name": "Iphone7",
-	"price": "150zl",
-	"logo": "/img/smartphone.jpg"
-  },
-  {
-	"name": "Iphone7",
-	"price": "150zl",
-	"logo": "/img/smartphone.jpg"
-  },
-  {
-	"name": "Iphone7",
-	"price": "150zl",
-	"logo": "/img/smartphone.jpg"
-  }
+	{
+		"name": "Iphone6",
+		"price": "100zl",
+		"logo": "/img/smartphone.jpg"
+	},
+	{
+		"name": "Iphone7",
+		"price": "150zl",
+		"logo": "/img/smartphone.jpg"
+	},
+	{
+		"name": "Iphone7",
+		"price": "150zl",
+		"logo": "/img/smartphone.jpg"
+	},
+	{
+		"name": "Iphone7",
+		"price": "150zl",
+		"logo": "/img/smartphone.jpg"
+	}
 ]
