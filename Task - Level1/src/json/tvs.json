@@ -1,0 +1,22 @@
+[
+  {
+	"name": "tv1tv",
+	"price": "100zl",
+	"logo": "/img/tv.jpg"
+  },
+  {
+	"name": "tv2",
+	"price": "150zl",
+	"logo": "/img/tv.jpg"
+  },
+  {
+	"name": "tv3",
+	"price": "150zl",
+	"logo": "/img/tv.jpg"
+  },
+  {
+	"name": "Iphone7",
+	"price": "150zl",
+	"logo": "/img/tv.jpg"
+  }
+]

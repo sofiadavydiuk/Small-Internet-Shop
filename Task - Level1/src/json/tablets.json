@@ -1,0 +1,22 @@
+[
+  {
+	"name": "Tablet1",
+	"price": "100zl",
+	"logo": "/img/tablet.jpg"
+  },
+  {
+	"name": "Tablet2",
+	"price": "150zl",
+	"logo": "/img/tablet.jpg"
+  },
+  {
+	"name": "Iphone7",
+	"price": "150zl",
+	"logo": "/img/tablet.jpg"
+  },
+  {
+	"name": "Iphone7",
+	"price": "150zl",
+	"logo": "/img/tablet.jpg"
+  }
+]
