@@ -1,0 +1,104 @@
+The getting started guide might be more clear. Just replace BrowserRouter with HashRouter. You no longer need to pass the history as a prop anymore. So for your code it would be.
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {
+  HashRouter,
+  Route,
+  Link
+} from 'react-router-dom';
+
+ReactDOM.render((
+   <HashRouter>
+      <div>
+        <Route exact path="/" component={Login} />
+        <Route path="dashboard" component={Dashboard} />
+        <Route path="users" component={Users} />
+      </div>
+   </HashRouter >
+), document.getElementById( 'page' ) )
+
+
+
+
+New
+
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import { Router, Route, IndexRoute, browserHistory } from "react-router";
+//
+// import Tablets from "./pages/Tablets";
+// import Smartphones from "./pages/Smartphones";
+// import Layout from "./pages/Layout";
+// import TV from "./pages/TV";
+//
+// const app = document.getElementById('app');
+//
+// ReactDOM.render(
+//   <Router history={browserHistory}>
+//     <Route path="/" component={Layout}>
+//       <IndexRoute component={Smartphones}></IndexRoute>
+//       <Route path="archives" name="archives" component={Tablets}></Route>
+//       <Route path="settings" name="settings" component={TV}></Route>
+//     </Route>
+//   </Router>,
+// app);
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {
+  HashRouter,
+  Route
+} from 'react-router-dom';
+
+import Tablets from "./pages/Tablets";
+import Smartphones from "./pages/Smartphones";
+import Layout from "./pages/Layout";
+import TV from "./pages/TV";
+
+ReactDOM.render((
+   <HashRouter>
+      <div>
+        <Route exact path="/" component={Smartphones} />
+        <Route path="archives" component={Tablets} />
+        <Route path="settings" component={TV} />
+      </div>
+   </HashRouter >
+), app);
+
+
+
+??
+
+Dont work
+import React from "react";
+import ReactDOM from "react-dom";
+import {
+    HashRouter,
+    Route,
+    Index
+} from 'react-router-dom';
+
+import Tablets from "./pages/Tablets";
+import Smartphones from "./pages/Smartphones";
+import Layout from "./pages/Layout";
+import TV from "./pages/TV";
+
+const app = document.getElementById('app');
+
+
+
+ReactDOM.render((
+    <HashRouter>
+        <div>
+            <Index path="/" component={Layout}>
+              <Route path="smartphones"  component={Smartphones}></Route>
+              <Route path="archives"  component={Tablets}></Route>
+              <Route path="settings"  component={TV}></Route>
+            </Index>
+        </div>
+    </HashRouter>
+), app);
+
+
+

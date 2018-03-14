@@ -1,7 +1,7 @@
 import React from "react";
 import 'whatwg-fetch'
 
-import Products from "../components/Products";
+import Products from "../services/Products";
 
 export default class Smartphones extends React.Component {
 	render() {

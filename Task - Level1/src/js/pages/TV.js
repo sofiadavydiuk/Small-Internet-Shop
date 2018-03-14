@@ -1,6 +1,6 @@
 import React from "react";
 
-import Products from "../components/Products";
+import Products from "../services/Products";
 
 export default class TV extends React.Component {
 	render() {
